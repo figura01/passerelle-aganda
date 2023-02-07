@@ -74,7 +74,7 @@ export class Agenda extends React.Component {
                 <section className="">
                     <SearchBar filter={this.state.filter}  setFilter={this.setFilter} />
                     <div className="container mx-auto">
-                        <ul className="grid grid-cols-1 row-auto sm:grid-cols-3 gap-4">
+                        <ul className="flex flex-col">
                             {listRecords}
                         </ul>
                     </div>
