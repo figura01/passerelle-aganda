@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-list {
+}
+.card-list .card {
+}
+
+.card-body {
+}
+.card-body .card-text {
+  flex-grow: 1; /* Le texte prend un maximum de hauteur afin de pousser le bouton vers le bas */
+}
